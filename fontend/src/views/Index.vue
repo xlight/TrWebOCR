@@ -144,12 +144,13 @@ export default {
       if (status !== 'uploading') {
         this.$data.fileList = [info.file]
         this.$data.upImage = getObjectURL(info.file)
-        this.$data.previewImgHidden = false
+        this.$data.previewImgHidden = true;
         console.log('success')
       }
       if (status === 'done') {
         console.log('done')
         this.$message.success(`${info.file.name} file uploaded successfully.`)
+        this.handleUpload();
       } else if (status === 'error') {
         this.$message.error(`${info.file.name} file upload failed.`)
         console.log('error')
