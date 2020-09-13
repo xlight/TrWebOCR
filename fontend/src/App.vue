@@ -8,7 +8,7 @@
       </a-layout-content>
 
       <a-layout-footer class="footer" style="background-color:transparent;padding:0.2rem">
-        <a href="https://github.com/alisen39/TrWebOCR">TrWebOCR-好用开源的离线OCR（https://github.com/alisen39/TrWebOCR）</a>
+       shhrp 演示
       </a-layout-footer>
     </a-layout>
   </div>
